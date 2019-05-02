@@ -4,10 +4,15 @@
 #include<windows.h>
 #include<winsock2.h>
 #include"Global.h"
-#pragma comment(lib,"C:\\Users\\11603\\source\\repos\\Project3\\wpcap.lib")
-#pragma comment(lib,"C:\\Users\\11603\\source\\repos\\Project3\\Packet.lib")
+#ifdef _X86_
+#pragma comment(lib,"wpcap.lib")
+#pragma comment(lib,"Packet.lib")
 
+#else
+#pragma comment(lib,"wpcap64.lib")
+#pragma comment(lib,"Packet64.lib")
 
+#endif
 
 
 #define MAX_PACKAGE_LEN 2048

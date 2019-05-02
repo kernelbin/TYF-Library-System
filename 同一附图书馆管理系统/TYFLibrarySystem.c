@@ -232,7 +232,7 @@ int DefaultEntry()
 
 
 		//开锁
-	//	OpenLock();
+		OpenLock();
 
 	}
 
@@ -435,7 +435,7 @@ EZWNDPROC MainProc(EZWND ezWnd, int message, WPARAM wParam, LPARAM lParam)
 		DeleteObject(hBitmap);
 
 		RefreshFrame = -1;
-		IDTimer_Static = SetEZTimer(ezWnd, 6 * 1000);
+		IDTimer_Static = SetEZTimer(ezWnd, 30 * 1000);
 
 		return 0;
 
