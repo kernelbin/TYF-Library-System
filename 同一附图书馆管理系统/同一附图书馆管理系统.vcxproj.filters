@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\核心代码">
+      <UniqueIdentifier>{07bb5df2-33d5-481c-93a5-c9b13eb97ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\子窗口">
+      <UniqueIdentifier>{960cb339-d8fc-4617-a813-0bca87e00bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\核心代码\启动代码">
+      <UniqueIdentifier>{24efe930-8c2f-49c5-955c-aa12b63d8714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\核心代码\进程操作">
+      <UniqueIdentifier>{408a16d9-36e7-4b6a-be13-e0e0e301c547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\子窗口\主进程">
+      <UniqueIdentifier>{23e26611-03fa-4b69-83c1-cd8018eb23b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\子窗口\主进程\主窗口">
+      <UniqueIdentifier>{6d1002e7-32c8-40fc-901d-94e15961b87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\子窗口\主进程\主窗口\标题栏">
+      <UniqueIdentifier>{d224f79e-ecfb-47c7-8d7d-0d23d51155f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\子窗口\主进程\桌面锁">
+      <UniqueIdentifier>{e356a081-7a51-4bdc-944f-cd593e5eafc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\子窗口\主进程\桌面锁\桌面锁主窗口">
+      <UniqueIdentifier>{900d13b5-92da-4b19-83f1-6adda412ff9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\网络">
+      <UniqueIdentifier>{56e94073-66f5-45ca-9fa0-e1bbef809fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\网络\MySQL数据库">
+      <UniqueIdentifier>{38523d8f-677c-4168-850e-1ee610643012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\子窗口\主进程\主窗口\边框">
+      <UniqueIdentifier>{e7fc82b5-b972-475c-ae98-f330c70fd07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\子窗口\主进程\主窗口\主界面">
+      <UniqueIdentifier>{fecce12a-bd7e-4315-8e52-6447c5901c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\日志读写">
+      <UniqueIdentifier>{2d3ad78b-d8aa-4dc4-ae07-96ed1e587551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\核心代码\跨进程数据同步">
+      <UniqueIdentifier>{175d3e25-81c8-42b4-8379-4820f8e29bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\网络\数据包监控">
+      <UniqueIdentifier>{bb4d0e69-0e1b-4bae-aaaf-118869f76d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图形界面">
+      <UniqueIdentifier>{20669fe9-dda0-4952-8624-9a89a9823684}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EasyWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaceStr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintClose.h">
+      <Filter>源文件\子窗口\主进程\主窗口\标题栏</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintSmall.h">
+      <Filter>源文件\子窗口\主进程\主窗口\标题栏</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintShutDown.h">
+      <Filter>源文件\子窗口\主进程\桌面锁\桌面锁主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintRefresh.h">
+      <Filter>源文件\子窗口\主进程\桌面锁\桌面锁主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintExit.h">
+      <Filter>源文件\子窗口\主进程\桌面锁\桌面锁主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Public.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Caption.c">
+      <Filter>源文件\子窗口\主进程\主窗口\标题栏</Filter>
+    </ClCompile>
+    <ClCompile Include="Close.c">
+      <Filter>源文件\子窗口\主进程\主窗口\标题栏</Filter>
+    </ClCompile>
+    <ClCompile Include="Small.c">
+      <Filter>源文件\子窗口\主进程\主窗口\标题栏</Filter>
+    </ClCompile>
+    <ClCompile Include="LockMain.c">
+      <Filter>源文件\子窗口\主进程\桌面锁\桌面锁主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="DataNet.c">
+      <Filter>源文件\网络\MySQL数据库</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI.c">
+      <Filter>源文件\子窗口\主进程\主窗口\主界面</Filter>
+    </ClCompile>
+    <ClCompile Include="LogIO.c">
+      <Filter>源文件\日志读写</Filter>
+    </ClCompile>
+    <ClCompile Include="DataShare.c">
+      <Filter>源文件\核心代码\跨进程数据同步</Filter>
+    </ClCompile>
+    <ClCompile Include="TYFLibrarySystem.c">
+      <Filter>源文件\核心代码\启动代码</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketCapture.c">
+      <Filter>源文件\网络\数据包监控</Filter>
+    </ClCompile>
+    <ClCompile Include="PackageRecord.c">
+      <Filter>源文件\网络\数据包监控</Filter>
+    </ClCompile>
+    <ClCompile Include="PackageRecUI.c">
+      <Filter>源文件\子窗口\主进程\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="GDIObjMgr.c">
+      <Filter>源文件\图形界面</Filter>
+    </ClCompile>
+    <ClCompile Include="Border.c">
+      <Filter>源文件\子窗口\主进程\主窗口\主界面</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="同一附图书馆管理系统.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="3.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="4.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="5.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="6.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
